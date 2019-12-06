@@ -1,0 +1,26 @@
+{
+    "name": "timespeak/api-client",
+    "description": "Test assignment",
+    "type": "library",
+    "version": "1.0.0-dev",
+    "require": {
+        "php": "^7.2",
+        "guzzlehttp/guzzle": "~6.4",
+        "phpunit/phpunit": "^8.4"
+    },
+    "require-dev": {
+    },
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Avramov Aleksandr",
+            "email": "alex_z@timespeak.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "TimeSpeak\\ApiClient\\": "src/"
+        }
+    }
+}
